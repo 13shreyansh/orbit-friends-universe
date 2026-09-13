@@ -1,15 +1,9 @@
-import { build } from 'esbuild'
-import { createRequire } from 'node:module'
-import { mkdtemp, readFile, rm } from 'node:fs/promises'
-import { tmpdir } from 'node:os'
+import { getFriendsStory } from '../src/demo/friendsStories.ts'
+import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import assert from 'node:assert/strict'
 
-const temporary = await mkdtemp(path.join(tmpdir(), 'orbit-friends-stories-'))
-try {
-  const bundle = path.join(temporary, 'stories.cjs')
-  await build({entryPoints:['src/demo/friendsStories.ts'],bundle:true,platform:'node',format:'cjs',outfile:bundle,logLevel:'silent'})
-  const {getFriendsStory} = createRequire(import.meta.url)(bundle)
+{
   const people=['ross','rachel','monica','chandler','joey','phoebe']
   const collections=new Set()
   const leadPhotos=new Set()
@@ -26,8 +20,9 @@ try {
       assert.equal(new Set(urls).size,urls.length)
       for (const photo of story.photos) {
         assert(photo.caption.trim())
-        assert(photo.url.startsWith('/friends/') || photo.url.startsWith('/friends-pairs/'))
-        assert((await readFile(path.join('public',photo.url))).length>0)
+        const assetPath = photo.url.replace(/^\/orbit-friends-universe\//, '/')
+        assert(assetPath.startsWith('/friends/') || assetPath.startsWith('/friends-pairs/'))
+        assert((await readFile(path.join('public',assetPath))).length>0)
       }
       collections.add([...urls].sort().join('|'))
       leadPhotos.add(urls[0])
@@ -42,4 +37,4 @@ try {
     assert.equal(getFriendsStory('friends-ross',invalid),null)
   }
   console.log('PASS: all 15 Friends pair stories are symmetric, distinct, have 3–8 existing photos and captions, and reject self/unknown IDs.')
-} finally { await rm(temporary,{recursive:true,force:true}) }
+}

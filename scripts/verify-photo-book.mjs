@@ -1,4 +1,4 @@
-import { build } from 'rolldown'
+import { build } from 'vite'
 import { createRequire } from 'node:module'
 import { mkdtemp, readFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
@@ -8,7 +8,16 @@ import assert from 'node:assert/strict'
 const temporary = await mkdtemp(path.join(tmpdir(), 'orbit-book-'))
 try {
   const bundle = path.join(temporary, 'book.cjs')
-  await build({input:'src/modules/memory-book/convertMemoryToPages.ts',platform:'node',output:{file:bundle,format:'cjs'},logLevel:'silent'})
+  await build({
+    configFile: false,
+    logLevel: 'silent',
+    ssr: { noExternal: true },
+    build: {
+      ssr: 'src/modules/memory-book/convertMemoryToPages.ts',
+      outDir: temporary,
+      rollupOptions: { output: { format: 'cjs', entryFileNames: 'book.cjs' } },
+    },
+  })
   const {convertMemoryToPages} = createRequire(import.meta.url)(bundle)
   const make = (id,url) => ({id,eventTime:'2026-09-13',eventType:'album_import',summary:'Coffee together',rawText:'Coffee at the orange couch',media:[{type:'image',url,name:id}]})
   const records=[make('first','/a.jpg'),make('second','/b.jpg'),make('shared-copy','/a.jpg'),make('third','/c.jpg')]

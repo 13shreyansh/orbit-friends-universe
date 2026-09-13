@@ -37,7 +37,8 @@
     "seed:nebula-simulation": "cd backend && python -m app.dev_seed_nebula",
     "drill:agent-memory": "node --env-file-if-exists=.env.production scripts/drills/agent-memory.mjs",
     "drill:openviking": "node --env-file-if-exists=.env.production scripts/drills/openviking.mjs",
-    "drill:all": "npm run drill:agent-memory && npm run drill:openviking"
+    "drill:all": "npm run drill:agent-memory && npm run drill:openviking",
+    "check:demo": "node scripts/verify-friends-stories.mjs && node scripts/verify-photo-book.mjs && node scripts/verify-repository.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
