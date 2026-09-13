@@ -9,7 +9,6 @@ export default defineConfig(({ mode }) => {
   return {
     base: '/orbit-friends-universe/',
     plugins: [react()],
-    base: '/orbit-friends-universe/',
     server: {
       host: env.VITE_HOST || '127.0.0.1',
       port: Number(env.VITE_PORT || 5173),
