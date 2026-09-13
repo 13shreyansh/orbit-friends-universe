@@ -1,0 +1,90 @@
+.experience {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: #060819;
+}
+
+.cosmicBackground { z-index: 0; }
+
+.experience canvas {
+  position: relative;
+  z-index: 2;
+  display: block;
+  touch-action: none;
+  cursor: grab;
+  background: transparent;
+}
+.experience canvas:active { cursor: grabbing; }
+.error,
+.loading { position: fixed; top: 50%; left: 50%; z-index: 20; transform: translate(-50%, -50%); color: rgba(255,255,255,.54); font-size: .75rem; }
+.error { color: #ffabab; }
+
+.travelVeil {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  background: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 460ms cubic-bezier(.65, 0, .35, 1);
+  will-change: opacity;
+}
+
+.travelVeilOpaque {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.travelVeilIntroReveal {
+  transition-duration: 280ms;
+}
+
+.travelVeilArrivalFade {
+  transition-duration: 1000ms;
+}
+
+.travelVeilTargetReveal {
+  pointer-events: auto;
+  transition-duration: 520ms;
+}
+
+.travelSpotlight {
+  position: absolute;
+  top: -32%;
+  left: 50%;
+  width: min(68vw, 620px);
+  height: 92%;
+  opacity: 0;
+  transform: translate3d(-50%, -18%, 0) scaleX(.52);
+  background:
+    radial-gradient(
+      ellipse at 50% 0%,
+      rgba(184, 243, 255, .18) 0%,
+      rgba(127, 219, 255, .075) 32%,
+      rgba(38, 69, 102, .025) 58%,
+      transparent 76%
+    );
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+.travelVeilIntroReveal .travelSpotlight {
+  animation: travelSpotlightSweep 680ms cubic-bezier(.32, .72, .24, 1) both;
+}
+
+@keyframes travelSpotlightSweep {
+  0% {
+    opacity: 0;
+    transform: translate3d(-50%, -18%, 0) scaleX(.52);
+  }
+  32% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(-50%, 34%, 0) scaleX(1);
+  }
+}

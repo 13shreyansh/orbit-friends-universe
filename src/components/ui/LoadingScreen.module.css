@@ -1,0 +1,40 @@
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: #05060f;
+}
+
+.glow {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #7d95ff;
+  box-shadow: 0 0 24px 8px rgba(125, 149, 255, 0.55);
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+.label {
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(0.85);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}

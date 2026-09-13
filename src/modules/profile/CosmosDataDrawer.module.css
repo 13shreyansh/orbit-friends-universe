@@ -1,0 +1,72 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  border: 0;
+  background: rgba(3, 4, 12, 0.46);
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 31;
+  width: min(460px, 96vw);
+  height: 100%;
+  padding: 26px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  border-left: 1px solid rgba(165, 199, 255, 0.2);
+  background: rgba(12, 16, 39, 0.94);
+  backdrop-filter: blur(24px);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.header { display: grid; grid-template-columns: 1fr 34px; align-items: center; gap: 12px; margin-bottom: 18px; }
+.header span { color: rgba(142, 187, 255, 0.72); font-size: 0.55rem; letter-spacing: 0.17em; }
+.header h2 { margin: 5px 0 0; font-size: 1.1rem; font-weight: 580; }
+.iconButton { width: 32px; height: 32px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.12); border-radius: 50%; background: rgba(255,255,255,.04); color: rgba(255,255,255,.7); cursor: pointer; }
+
+.tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; padding: 3px; margin-bottom: 22px; border: 1px solid rgba(255,255,255,.1); border-radius: 7px; background: rgba(255,255,255,.035); }
+.tabs button { min-height: 34px; display: flex; align-items: center; justify-content: center; gap: 6px; border: 0; border-radius: 4px; background: transparent; color: rgba(255,255,255,.5); font: inherit; font-size: .65rem; cursor: pointer; }
+.tabs .activeTab { background: rgba(118, 163, 230, .16); color: rgba(225, 239, 255, .92); }
+
+.error, .empty { margin: 14px 0; color: rgba(255,255,255,.48); font-size: .67rem; line-height: 1.55; }
+.error { color: #ffb4b4; }
+.scoreView, .graphView { display: grid; gap: 20px; }
+.scoreHero { display: flex; align-items: end; gap: 12px; padding: 6px 0 18px; border-bottom: 1px solid rgba(255,255,255,.09); }
+.scoreHero strong { font-size: 2.4rem; line-height: 1; font-weight: 540; color: #dceaff; }
+.scoreHero span { padding-bottom: 4px; color: rgba(255,255,255,.42); font-size: .66rem; }
+.metrics { margin: 0; display: grid; grid-template-columns: 1fr 1fr; }
+.metrics div { padding: 11px 0; border-bottom: 1px solid rgba(255,255,255,.07); }
+.metrics div:nth-child(even) { padding-left: 18px; border-left: 1px solid rgba(255,255,255,.07); }
+.metrics dt { color: rgba(255,255,255,.38); font-size: .58rem; }
+.metrics dd { margin: 5px 0 0; color: rgba(255,255,255,.82); font-size: .82rem; }
+.features { display: grid; gap: 12px; }
+.features > div > div { display: flex; justify-content: space-between; gap: 10px; font-size: .61rem; }
+.features span { color: rgba(255,255,255,.54); }
+.features strong { color: rgba(211,231,255,.82); font-weight: 550; }
+.features i { display: block; height: 4px; margin-top: 6px; overflow: hidden; background: rgba(255,255,255,.07); }
+.features b { display: block; height: 100%; background: #7db5e9; }
+
+.graphSummary { display: flex; align-items: center; gap: 13px; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,.09); color: rgba(220,236,255,.78); font-size: .68rem; }
+.graphSummary small { margin-left: auto; color: rgba(255,255,255,.32); }
+.nodeList, .edgeList { display: grid; }
+.nodeList div, .edgeList div { min-width: 0; padding: 10px 0; display: grid; grid-template-columns: 110px 1fr; gap: 12px; border-bottom: 1px solid rgba(255,255,255,.07); }
+.nodeList span, .edgeList span { color: rgba(130,185,238,.7); font-size: .56rem; text-transform: uppercase; }
+.nodeList strong { min-width: 0; overflow-wrap: anywhere; color: rgba(255,255,255,.78); font-size: .67rem; font-weight: 520; }
+.edgeList code { min-width: 0; overflow-wrap: anywhere; color: rgba(255,255,255,.48); font-size: .56rem; }
+
+.profileForm { display: grid; gap: 16px; }
+.profileForm label { display: grid; gap: 7px; }
+.profileForm label span { color: rgba(255,255,255,.48); font-size: .62rem; }
+.profileForm input, .profileForm textarea { width: 100%; box-sizing: border-box; padding: 10px 11px; border: 1px solid rgba(255,255,255,.13); border-radius: 7px; outline: none; background: rgba(255,255,255,.045); color: rgba(255,255,255,.88); font: inherit; font-size: .7rem; resize: vertical; }
+.profileForm input:focus, .profileForm textarea:focus { border-color: rgba(129,188,241,.55); }
+.profileForm button, .refresh { min-height: 36px; display: inline-flex; align-items: center; justify-content: center; gap: 7px; border: 1px solid rgba(133,190,241,.3); border-radius: 6px; background: rgba(91,151,207,.16); color: rgba(229,242,255,.88); font: inherit; font-size: .66rem; cursor: pointer; }
+.profileForm button:disabled, .refresh:disabled { opacity: .45; cursor: wait; }
+.refresh { width: 100%; margin-top: 24px; background: rgba(255,255,255,.035); }
+
+@media (max-width: 520px) {
+  .panel { padding: 20px; }
+  .nodeList div, .edgeList div { grid-template-columns: 86px 1fr; }
+}

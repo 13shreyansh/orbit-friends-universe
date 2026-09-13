@@ -1,0 +1,24 @@
+.button {
+  position: fixed;
+  right: 194px;
+  bottom: 47px;
+  z-index: 25;
+  min-height: 42px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(181, 157, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(31, 24, 64, 0.76);
+  backdrop-filter: blur(16px);
+  color: rgba(226, 217, 255, 0.9);
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.button:hover, .button:focus-visible { transform: translateY(-2px); border-color: rgba(195,176,255,.52); background: rgba(48,38,91,.9); }
+.button span { font-size: .72rem; }
+@media (max-width: 640px) {
+  .button { right: 82px; bottom: 78px; min-height: 40px; padding: 0 11px; }
+  .button span { display: none; }
+}

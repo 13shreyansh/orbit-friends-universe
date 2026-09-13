@@ -1,0 +1,72 @@
+:root {
+  /* Shared design tokens — every glass panel in the app pulls from these
+     so the "glass" material and motion language stay consistent instead
+     of drifting per-component. */
+  --glass-bg: rgba(34, 26, 74, 0.68);
+  --glass-blur: 22px;
+  --glass-border: rgba(246, 176, 157, 0.16);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s ease;
+  --focus-ring: 0 0 0 2px rgba(255, 183, 143, 0.55);
+  --cosmos-ink: #111637;
+  --cosmos-violet: #5d477f;
+  --cosmos-coral: #e9818d;
+  --cosmos-peach: #ffc08e;
+  --cosmos-starlight: #ffe0bd;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--cosmos-ink);
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Helvetica,
+    Arial,
+    sans-serif;
+  color: #ffffff;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  position: relative;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* One consistent focus ring for every interactive element in the app,
+   keyboard-only (no ring on mouse click) so it stays quiet visually but
+   is still genuinely accessible. */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}

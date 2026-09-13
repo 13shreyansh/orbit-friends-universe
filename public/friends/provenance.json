@@ -1,0 +1,647 @@
+{
+  "purpose": "Photographic Friends memories for private fan demo",
+  "images": [
+    {
+      "id": "thanksgiving-table",
+      "scene": "All six friends at the Thanksgiving table in Monica's apartment",
+      "image_url": "https://assets.cntraveller.in/photos/60b61cf16ec4354b9c9ae768/16%3A9/w_1360%2Ch_765%2Cc_limit/friends-lead-1366x768.jpg",
+      "source_page": "https://www.cntraveller.in/story/bandra-manhattan-what-would-friends-look-like-if-it-was-shot-in-mumbai-friends-reunion-2021/",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/thanksgiving-table.jpg",
+      "bytes": 156773,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        1360,
+        765
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "monica-chandler-wedding",
+      "scene": "Monica and Chandler at their wedding ceremony",
+      "image_url": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-11/Matthew-Perry-Courteney-Cox-friends-te-221101-5dd008.jpg",
+      "source_page": "https://tribune.com.pk/story/2443749/goodbye-chandler-bing-friends-family-and-fans-remember-matthew-perry",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/monica-chandler-wedding.jpg",
+      "bytes": 440935,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        1500,
+        1875
+      ],
+      "orientation": "portrait",
+      "visually_verified": true
+    },
+    {
+      "id": "holiday-armadillo",
+      "scene": "Ross as the Holiday Armadillo with Chandler dressed as Santa and Ben beside the Christmas tree",
+      "image_url": "https://www.looper.com/img/gallery/the-funniest-scenes-in-friends/ross-becomes-the-holiday-armadillo-1629219421.jpg",
+      "source_page": "https://www.looper.com/490013/the-funniest-scenes-in-friends/",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/holiday-armadillo.jpg",
+      "bytes": 206815,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        780,
+        438
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "central-perk-photo-sharing",
+      "scene": "The ensemble sharing photographs on the orange Central Perk couch",
+      "image_url": "https://www.usanetwork.com/sites/usablog/files/styles/scale_862/public/2022/11/barmageddon-bar-series-friends.jpg",
+      "source_page": "https://www.usanetwork.com/usa-insider/best-tv-show-bars-visit-barmageddon-cheers",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/central-perk-photo-sharing.jpg",
+      "bytes": 172225,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        862,
+        575
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "phoebe-mike-wedding",
+      "scene": "Phoebe and Mike exchanging rings at their snowy wedding with Joey",
+      "image_url": "https://www.looper.com/img/gallery/mike-hannigans-entire-friends-timeline-explained/the-long-road-down-the-aisle-1621807278.jpg",
+      "source_page": "https://www.looper.com/418294/mike-hannigans-entire-friends-timeline-explained/",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/phoebe-mike-wedding.jpg",
+      "bytes": 67542,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        780,
+        438
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "thanksgiving-football",
+      "scene": "The friends playing Thanksgiving football in the autumn leaves",
+      "image_url": "https://ca-times.brightspotcdn.com/dims4/default/72eaf35/2147483647/strip/true/crop/3000x2023%2B0%2B0/resize/1200x809%21/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb6%2F5f%2F5862c5164ebea77ddee0a4037035%2Ffriends-the-one-with-the-football-gettyimages-140949782.jpg",
+      "source_page": "https://www.latimes.com/entertainment-arts/tv/story/2025-11-24/friends-thanksgiving-episodes-ranked-worst-best",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/thanksgiving-football.jpg",
+      "status": "downloaded",
+      "bytes": 193800,
+      "content_type": "image/jpeg",
+      "dimensions": [
+        1200,
+        809
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "apartment-group-hug",
+      "scene": "A group hug in Monica's apartment kitchen",
+      "image_url": "https://as01.epimg.net/epik/imagenes/2019/08/31/portada/1567239816_499172_1567241696_noticia_normal.jpg",
+      "source_page": "https://as.com/epik/2019/08/31/portada/1567239816_499172.html",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/apartment-group-hug.jpg",
+      "bytes": 83140,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "fountain-opening",
+      "scene": "The opening ensemble with colorful umbrellas beside the fountain",
+      "image_url": "https://www.slashfilm.com/img/gallery/matthew-perry-provided-the-laughs-for-friends-opening-fountain-shoot/intro-1698622963.jpg",
+      "source_page": "https://www.slashfilm.com/1433287/matthew-perry-friends-fountain-real-laughs-lisa-kudrow/",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/fountain-opening.jpg",
+      "bytes": 114947,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        780,
+        438
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "formal-ensemble",
+      "scene": "Ross and Emily wedding promotional group portrait with Chandler, Rachel, Monica and Joey; Phoebe is not pictured",
+      "image_url": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/EOXMV4LXL5A2ZIUF63VX7BWTJY.jpg",
+      "source_page": "https://english.elpais.com/culture/2024-01-15/a-friends-script-that-was-found-in-the-trash-is-auctioned-for-28000.html?outputType=amp",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "local_path": "/private/tmp/friends-expanded-assets/formal-ensemble.jpg",
+      "bytes": 2541424,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "dimensions": [
+        3000,
+        2455
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "monica-chandler-wedding-landscape",
+      "scene": "Monica and Chandler wedding, landscape crop",
+      "image_url": "https://imgix.bustle.com/nylon/18498370/origin.jpg?crop=faces&fit=crop&fm=jpg&h=630&w=1200",
+      "source_page": "https://www.nylon.com/articles/monica-chandler-wedding-friends",
+      "local_path": "/private/tmp/friends-expanded-assets/monica-chandler-wedding-landscape.jpg",
+      "bytes": 125791,
+      "content_type": "image/jpeg",
+      "status": "downloaded",
+      "rights": "Copyrighted Friends series or promotional image. Publicly accessible reference; no public-domain or free-redistribution claim.",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "orientation": "landscape",
+      "visually_verified": true
+    },
+    {
+      "id": "central-perk-coffee",
+      "theme": "central-perk",
+      "title": "The gang around the Central Perk coffee table",
+      "scene": "The gang around the Central Perk coffee table",
+      "image_url": "https://media.revistagq.com/photos/5d836ac102a6de0008b27bbb/master/pass/friends%20central%20perk%20vida%20real.jpg",
+      "source_page": "https://www.revistagq.com/noticias/articulo/friends-central-perk-en-la-vida-real-nueva-york",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        2000,
+        1123
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/central-perk-coffee.jpg",
+      "bytes": 382562,
+      "sha256": "9ffca7bc61e1475da6361b41614283ba5767a4b21ffaf047fc5bd6f9c450e20f",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "central-perk-laughter",
+      "theme": "central-perk",
+      "title": "Sharing a laugh on the orange couch",
+      "scene": "Sharing a laugh on the orange couch",
+      "image_url": "https://media.traveler.es/photos/647db47d05c2ecbea72b4ff7/master/pass/GettyImages-138424591.jpg",
+      "source_page": "https://www.traveler.es/articulos/el-escape-room-de-friends-que-triunfa-en-madrid",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        3000,
+        1991
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/central-perk-laughter.jpg",
+      "bytes": 1206259,
+      "sha256": "1e24689d42dc8e0c7a13068b01619fdd9fd0f92d7d1e54cd0822b229b46a3e38",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "central-perk-thirty",
+      "theme": "central-perk",
+      "title": "Monica, Chandler, Rachel and Joey sit together on the Central Perk couch",
+      "scene": "Monica, Chandler, Rachel and Joey sit together on the Central Perk couch",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMTQwNDk3NzEyOV5BMl5BanBnXkFtZTgwMTQ3OTU0MDE%40._V1_FMjpg_UX1000_.jpg",
+      "source_page": "https://www.imdb.com/title/tt0583489/plotsummary/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1000,
+        683
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/central-perk-thirty.jpg",
+      "bytes": 89810,
+      "sha256": "86fa44c82d22608ce1e84c28b7722e3e7ffc87c3bcb2689284c72e25c8c70efa",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "central-perk-girls",
+      "theme": "central-perk",
+      "title": "Rachel, Monica and Phoebe on the Central Perk couch",
+      "scene": "Rachel, Monica and Phoebe on the Central Perk couch",
+      "image_url": "https://assets.www.warnerbros.co.uk/drupal-root/public/friends_girls_sofa.jpg",
+      "source_page": "https://www.warnerbros.co.uk/news/articles/2019/09/23/5-reasons-why-friends-still-must-watch",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        780,
+        430
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/central-perk-girls.jpg",
+      "bytes": 138448,
+      "sha256": "9ef7c9b80aa7bb3593da152204e6122523d81421e3319b641cd86da9dffdcf3e",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "apartment-poker",
+      "theme": "apartment",
+      "title": "Poker night around Monica's kitchen table",
+      "scene": "Poker night around Monica's kitchen table",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/cM4ZsKfi6Gp3dBJZUbqj93.jpg",
+      "source_page": "https://www.cinemablend.com/television/i-like-friends-monica-and-chandler-just-not-together-heres-why",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/apartment-poker.jpg",
+      "bytes": 143910,
+      "sha256": "69b3224bc763dbc15a36270a6c65396bbfeaab6a846371f7a2a700dce2da96c6",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "apartment-trivia",
+      "theme": "apartment",
+      "title": "Ross hosts the apartment trivia game",
+      "scene": "Ross hosts the apartment trivia game",
+      "image_url": "https://hips.hearstapps.com/cosmopolitan/assets/14/52/nrm_1419371755-15-friends-the-one-with-embryos.jpg",
+      "source_page": "https://www.cosmopolitan.com/entertainment/tv/a34624/best-friends-episodes-you-need-to-marathon/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1280,
+        671
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/apartment-trivia.jpg",
+      "bytes": 125270,
+      "sha256": "7cb1864c4abff1ee0f330eda965489bcc0437e1c2d48f7b8b260bb160b99b144",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "apartment-shopping-game",
+      "theme": "apartment",
+      "title": "Guessing the contents of Rachel's shopping bag",
+      "scene": "Guessing the contents of Rachel's shopping bag",
+      "image_url": "https://www.looper.com/img/gallery/the-friends-fan-theory-that-proves-chandler-cheated-in-the-game-in-the-one-with-the-embryos/a-fan-theory-says-chandler-tricked-rachel-and-monica-into-playing-the-game-in-the-first-place-1643647046.jpg",
+      "source_page": "https://www.looper.com/751904/the-friends-fan-theory-that-proves-chandler-cheated-in-the-game-in-the-one-with-the-embryos/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        780,
+        438
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/apartment-shopping-game.jpg",
+      "bytes": 110213,
+      "sha256": "d248a957558f77028c6a82ef3496746f614654ad0733ea8cf9d57dc903a11faa",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "apartment-blackout",
+      "theme": "apartment",
+      "title": "Friends together during the blackout",
+      "scene": "Friends together during the blackout",
+      "image_url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/41/1476462131-friends-the-one-with-the-blackout.jpg",
+      "source_page": "https://www.digitalspy.com/tv/ustv/g24315/friends-the-25-best-episodes-ever-ranked/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        957,
+        537
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/apartment-blackout.jpg",
+      "bytes": 49244,
+      "sha256": "e3624720298cc7ff5c140f49f98cca773d6a63f0fd5baf0084ce62f79002f842",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "thanksgiving-kitchen-prep",
+      "theme": "thanksgiving",
+      "title": "Preparing Thanksgiving together in Monica's kitchen",
+      "scene": "Preparing Thanksgiving together in Monica's kitchen",
+      "image_url": "https://www.indyturk.com/sites/default/files/article/main_image/2021/05/15/662476-395959121.jpg",
+      "source_page": "https://www.indyturk.com/node/359666/ya%C5%9Fam/friendsdeki-monica-ve-rachel%C4%B1n-dairesi-art%C4%B1k-bir-g%C3%BCnl%C3%BC%C4%9F%C3%BCne-kiralanabiliyor",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1368,
+        911
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/thanksgiving-kitchen-prep.jpg",
+      "bytes": 185189,
+      "sha256": "3f0ea5cbe5ac48d28e95ad7bc836db38c63213cd501939646d05d5f0830e5609",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "thanksgiving-football-scramble",
+      "theme": "thanksgiving",
+      "title": "Thanksgiving football scramble in the leaves",
+      "scene": "Thanksgiving football scramble in the leaves",
+      "image_url": "https://movieplayer.net-cdn.it/t/images/2014/09/11/the_one_with_the_footballs0309_jpg_1200x0_crop_q85.jpg",
+      "source_page": "https://movieplayer.it/articoli/friends-i-15-migliori-episodi-della-serie_13267/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        600,
+        450
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/thanksgiving-football-scramble.jpg",
+      "bytes": 136233,
+      "sha256": "5736ead6eff35b35ef423092d47233569dbcd6d772694d46e570715577730a26",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "thanksgiving-will-dinner",
+      "theme": "thanksgiving",
+      "title": "Will joins Ross and Phoebe at Thanksgiving dinner",
+      "scene": "Will joins Ross and Phoebe at Thanksgiving dinner",
+      "image_url": "https://media.gq.com/photos/5656761a391564526df19403/16%3A9/w_1280%2Cc_limit/GettyImages-140631534.jpg",
+      "source_page": "https://www.gq.com/story/brad-pitt-2001-friends-thanksgiving-hair",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/thanksgiving-will-dinner.jpg",
+      "bytes": 165359,
+      "sha256": "eaddcfb059dd8cbbccfaccd6392c2e465a1a378c6efc35a91eea16f91f48a865",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "thanksgiving-trifle",
+      "theme": "thanksgiving",
+      "title": "Rachel presents her Thanksgiving trifle",
+      "scene": "Rachel presents her Thanksgiving trifle",
+      "image_url": "https://media.vogue.es/photos/5ec910f10c8f8eddec9d8b1a/master/w_1600%2Cc_limit/vogue_news_853522039.jpg",
+      "source_page": "https://www.vogue.es/living/articulos/libro-cocina-friends-recetas-trifle-guisantes-rachel-green",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/thanksgiving-trifle.jpg",
+      "bytes": 112484,
+      "sha256": "a89aadf0c1a880973e2868f1d7132f71ae78cca62e828a9f5e6ab3bc84127eb6",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "wedding-phoebe-aisle",
+      "theme": "wedding",
+      "title": "Friends walking together at an outdoor wedding",
+      "scene": "Friends walking together at an outdoor wedding",
+      "image_url": "https://imgix.bustle.com/mic/cdxxubkadaspdasdi8ulbealdpi6a58qwgvm1b1m02mfolwtcqpmcyrxjtl7z0yl.jpg?crop=faces&dpr=2&fit=crop&h=235&w=414",
+      "source_page": "https://www.mic.com/articles/142764/why-phoebe-buffay-is-the-unsung-style-icon-of-friends-sorry-rachel-green",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        828,
+        470
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/wedding-phoebe-aisle.jpg",
+      "bytes": 51928,
+      "sha256": "8398023f2e451748a0ab59ab21ed13af3862d6ad3239d0e18c91a8ad63bce54f",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "wedding-phoebe-mike-ceremony",
+      "theme": "wedding",
+      "title": "Phoebe and Mike with Joey officiating",
+      "scene": "Phoebe and Mike with Joey officiating",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMjEwMDgwMTM3M15BMl5BanBnXkFtZTgwNDM5NzU0MDE%40._V1_.jpg",
+      "source_page": "https://www.imdb.com/title/tt0583542/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        2048,
+        1334
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/wedding-phoebe-mike-ceremony.jpg",
+      "bytes": 515388,
+      "sha256": "fe9821cb8d2bcbd49c5719fc72f47876a6f667edbe02df0ed9e1508dd4f0bddc",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "wedding-monica-chandler-dancefloor",
+      "theme": "wedding",
+      "title": "Monica and Chandler on their wedding dance floor",
+      "scene": "Monica and Chandler on their wedding dance floor",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BMTk3OTgwMzY5MV5BMl5BanBnXkFtZTgwNzI5OTU0MDE%40._V1_.jpg",
+      "source_page": "https://www.imdb.com/title/tt0583435/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1580,
+        2048
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/wedding-monica-chandler-dancefloor.jpg",
+      "bytes": 728591,
+      "sha256": "2b919a990e0313c973d38f134e488e890c87b93d39621b564926a4f786c5c12a",
+      "visually_verified": true,
+      "orientation": "portrait"
+    },
+    {
+      "id": "wedding-bridesmaids",
+      "theme": "wedding",
+      "title": "Rachel and Phoebe with Monica in her wedding dress",
+      "scene": "Rachel and Phoebe with Monica in her wedding dress",
+      "image_url": "https://media-assets.vanityfair.it/photos/661113a99c8cce44d0d7312c/16%3A9/w_2992%2Ch_1683%2Cc_limit/GettyImages-141370661.jpg",
+      "source_page": "https://www.vanityfair.it/article/damigelle-onore-matrimonio-regole-ruolo-abito-galateo",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        2992,
+        1683
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/wedding-bridesmaids.jpg",
+      "bytes": 745154,
+      "sha256": "2c331ddff43af80d03be3ddbaa93f6be037b25971005225b72e344010ce4e149",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "fountain-cast-standing",
+      "theme": "outings-holidays",
+      "title": "The cast crouch together beside the fountain",
+      "scene": "The cast crouch together beside the fountain",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/xutQ3uNPF5FomjbD6EXPE3.jpg",
+      "source_page": "https://www.cinemablend.com/television/full-story-behind-friends-thanksgiving-trifle-scene-what-matt-leblanc-ate-grosser-meat-custard",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/fountain-cast-standing.jpg",
+      "bytes": 174441,
+      "sha256": "6c88f5ecb832abc167b84ddbf2301416c7a16be375d56c9b5e214429d4913ac6",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "barbados-pingpong",
+      "theme": "outings-holidays",
+      "title": "Monica and Mike compete at ping-pong in Barbados",
+      "scene": "Monica and Mike compete at ping-pong in Barbados",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/aorN-lnun6-qAQOm2sPgQw/1200x675.jpg",
+      "source_page": "https://tv.apple.com/es/episode/the-one-in-barbados-pt-1/umc.cmc.1f1cilfqtllfyubpdrtxbe11y?l=en&showId=umc.cmc.4dxfvjbc4rdww1dcp3kbgoaqm",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1200,
+        675
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/barbados-pingpong.jpg",
+      "bytes": 210838,
+      "sha256": "1aa0e9fc5c472c760ecf86932c572a88ced807e101c032aa552584905cc2d0b1",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "barbados-laptop",
+      "theme": "outings-holidays",
+      "title": "The group gathers around Ross's laptop in Barbados",
+      "scene": "The group gathers around Ross's laptop in Barbados",
+      "image_url": "https://media.cntraveler.com/photos/5d82a17a6a31a30009f2a28c/master/w_1600%2Cc_limit/Friends_S9E23.jpg",
+      "source_page": "https://www.cntraveler.com/story/our-favorite-friends-travel-episodes-ahead-of-the-shows-25th-anniversary",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1600,
+        1043
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/barbados-laptop.jpg",
+      "bytes": 283450,
+      "sha256": "c36faa0f107fad5166812bda8173b8c5f8ac78c6b184c8e0ab34030a827c7b5e",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "christmas-living-room",
+      "theme": "central-perk",
+      "title": "The friends gather around the Central Perk coffee table during the holidays",
+      "scene": "The friends gather around the Central Perk coffee table during the holidays",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/friends-christmas-1667918634.png?crop=0.96xw%3A1xh%3Bcenter%2Ctop&resize=1200%3A%2A",
+      "source_page": "https://www.cosmopolitan.com/entertainment/tv/g41854678/best-friends-christmas-episodes/",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "status": "downloaded",
+      "local_path": "/friends/christmas-living-room.png",
+      "bytes": 2472766,
+      "sha256": "0e645854008cffcde5eb07ccbb2b4506f84fc02f19d5995c1da55561375f40b9",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "apartment-trivia-celebration",
+      "theme": "apartment",
+      "title": "Joey and Chandler celebrate during the apartment quiz",
+      "scene": "Joey and Chandler celebrate during the apartment quiz",
+      "image_url": "https://s2.r29static.com/bin/entry/4bc/x/1347479/image.jpg",
+      "source_page": "https://www.refinery29.com/en-us/2014/12/79927/friends-trivia-episode-quiz",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        1200,
+        809
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/apartment-trivia-celebration.jpg",
+      "bytes": 179109,
+      "sha256": "e6daee74021a7145a971429e476e554c3e3119ed02cf65467e48a44eb3b7f3b7",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "barbados-hotel-arrival",
+      "theme": "outings-holidays",
+      "title": "Monica, Rachel and Phoebe arrive at the Barbados hotel",
+      "scene": "Monica, Rachel and Phoebe arrive at the Barbados hotel",
+      "image_url": "https://courteney-cox.com/photos/albums/Television/Friends/S9/Captures/923/CCO923-101.jpg",
+      "source_page": "https://courteney-cox.com/photos/displayimage.php?album=1228&pid=172173",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "dimensions": [
+        720,
+        576
+      ],
+      "format": "JPEG",
+      "status": "downloaded",
+      "local_path": "/friends/barbados-hotel-arrival.jpg",
+      "bytes": 81347,
+      "sha256": "8db027fd3c66ced2fd7542c06fc9cc792ece7f86e01ea8361f2a81ca311f7fae",
+      "visually_verified": true,
+      "orientation": "landscape"
+    },
+    {
+      "id": "wedding-monica-chandler-kiss",
+      "theme": "wedding",
+      "title": "Monica and Chandler embrace at their wedding",
+      "scene": "Monica and Chandler embrace at their wedding",
+      "image_url": "https://i.insider.com/60ad14d8a412370019d31cd1?auto=webp&format=jpeg&width=600",
+      "source_page": "https://www.businessinsider.com/friends-best-and-worst-relationships-on-show-ranked-2021-5",
+      "rights": "Copyrighted Friends still or promotional photograph; public editorial reference, no free redistribution claim.",
+      "local_path": "/friends/wedding-monica-chandler-kiss.jpg",
+      "dimensions": [
+        600,
+        450
+      ],
+      "bytes": 31468,
+      "format": "JPEG",
+      "orientation": "landscape",
+      "status": "downloaded",
+      "sha256": "54fafd31a8ee9b43b8dc0e4893ae656b2db87306d18e72aaa390c1d8b5f96130",
+      "visually_verified": true
+    }
+  ],
+  "recommended_order": [
+    "central-perk-photo-sharing",
+    "thanksgiving-table",
+    "apartment-group-hug",
+    "fountain-opening",
+    "phoebe-mike-wedding",
+    "holiday-armadillo",
+    "monica-chandler-wedding-landscape",
+    "thanksgiving-football",
+    "formal-ensemble",
+    "monica-chandler-wedding"
+  ]
+}

@@ -1,0 +1,68 @@
+.switcher {
+  position: fixed;
+  top: 14px;
+  left: 50%;
+  z-index: 160;
+  transform: translateX(-50%);
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 999px;
+  background: rgba(17, 18, 49, .66);
+  color: rgba(255, 255, 255, .48);
+  font: inherit;
+  font-size: .6rem;
+  letter-spacing: .06em;
+  backdrop-filter: blur(14px);
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    background var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.switcher strong { color: rgba(255, 255, 255, .92); font-weight: 600; }
+.divider { margin: 0 6px; color: rgba(255, 255, 255, .2); }
+
+.switcher:hover {
+  border-color: rgba(255, 192, 153, .3);
+  background: rgba(38, 29, 76, .82);
+  color: rgba(255, 255, 255, .68);
+}
+
+.switcher:active { transform: translateX(-50%) scale(.96); }
+
+:global(body:has([data-onboarding-shell])) .switcher {
+  top: 21px;
+  right: 160px;
+  left: auto;
+  transform: none;
+}
+
+:global(body:has([data-onboarding-shell])) .switcher:active { transform: scale(.96); }
+
+@media (max-width: 1200px) {
+  :global(body:has([data-onboarding-shell])) .switcher {
+    top: 84px;
+    right: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .switcher {
+    top: max(64px, calc(env(safe-area-inset-top) + 52px));
+    right: 12px;
+    left: auto;
+    transform: none;
+    min-height: 28px;
+    padding: 0 9px;
+  }
+
+  .switcher:active { transform: scale(.96); }
+
+  :global(body:has([data-onboarding-shell])) .switcher {
+    top: max(74px, calc(env(safe-area-inset-top) + 62px));
+    right: 12px;
+  }
+}

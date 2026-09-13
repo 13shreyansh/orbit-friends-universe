@@ -1,0 +1,22 @@
+.root {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.media,
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.media {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay { background: var(--background-overlay); }

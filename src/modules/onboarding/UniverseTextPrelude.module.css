@@ -1,0 +1,43 @@
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 96;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 44%, rgba(103, 80, 151, .26), transparent 34%), radial-gradient(circle at 23% 70%, rgba(59, 94, 142, .12), transparent 34%), #080a25;
+  color: #fff;
+  opacity: 0;
+  animation: sceneIn .75s ease-in-out forwards;
+}
+.stars,
+.stars::before,
+.stars::after {
+  position: absolute;
+  inset: -14%;
+  content: '';
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, .72) 0 1px, transparent 1.4px);
+  background-size: 89px 89px;
+  opacity: .18;
+}
+.stars { animation: starDrift 14s ease-in-out infinite alternate; }
+.stars::before { transform: rotate(17deg) scale(1.08); background-size: 137px 137px; opacity: .13; }
+.stars::after { transform: rotate(-11deg) scale(1.16); background-size: 193px 193px; opacity: .12; }
+.nebula { position: absolute; inset: -22%; background: radial-gradient(ellipse at 43% 49%, rgba(190, 148, 205, .16), transparent 25%), radial-gradient(ellipse at 58% 54%, rgba(108, 154, 191, .12), transparent 30%); filter: blur(30px); animation: nebulaBreathe 7s ease-in-out infinite alternate; }
+.vignette { position: absolute; inset: 0; background: radial-gradient(circle at center, transparent 22%, rgba(2, 3, 17, .32) 72%, rgba(1, 2, 12, .72)); }
+.copy { position: relative; z-index: 2; width: min(940px, calc(100% - 48px)); text-align: center; }
+.copy p { min-height: 2em; margin: 0; font-size: clamp(1.4rem, 3vw, 2.75rem); font-weight: 320; letter-spacing: .075em; line-height: 1.7; text-shadow: 0 0 28px rgba(197, 176, 232, .34); }
+.copy i { display: inline-block; width: 1px; height: 1em; margin-left: .16em; vertical-align: -.08em; background: #f5c3af; box-shadow: 0 0 9px rgba(245, 195, 175, .7); animation: blink .85s steps(1) infinite; }
+.skip { position: absolute; z-index: 5; right: 28px; bottom: 26px; min-height: 38px; padding: 0 12px; display: inline-flex; align-items: center; gap: 7px; border: 1px solid rgba(218, 229, 248, .14); border-radius: 8px; background: rgba(8, 10, 31, .55); color: rgba(239, 244, 252, .6); font-size: .65rem; cursor: pointer; }
+.dissolve { position: absolute; z-index: 3; inset: 0; pointer-events: none; background: radial-gradient(circle at center, rgba(8, 10, 37, .4), rgba(1, 2, 10, .98) 70%), #01020a; opacity: 0; transition: opacity .8s ease-in-out; }
+.leaving .copy { animation: copyOut .7s ease-in-out forwards; }
+.leaving .stars,
+.leaving .nebula { transition: opacity .8s ease-in-out; opacity: 0; }
+.leaving .dissolve { opacity: 1; }
+@keyframes sceneIn { from { opacity: 0; filter: blur(8px); } to { opacity: 1; filter: blur(0); } }
+@keyframes copyOut { to { opacity: 0; transform: translateY(-9px); filter: blur(6px); } }
+@keyframes starDrift { to { transform: translate3d(10px, -8px, 0) scale(1.01); } }
+@keyframes nebulaBreathe { from { transform: scale(.96); opacity: .58; } to { transform: scale(1.04); opacity: .82; } }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .screen, .copy, .stars, .nebula, .copy i { animation-duration: .01ms !important; animation-iteration-count: 1 !important; } .dissolve { transition-duration: .2s; } }

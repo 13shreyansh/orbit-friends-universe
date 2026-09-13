@@ -1,0 +1,62 @@
+.rideHud {
+  position: fixed;
+  inset: 0;
+  z-index: 24;
+  pointer-events: none;
+}
+
+.routeInfo {
+  position: absolute;
+  left: 32px;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 13px;
+  border-left: 2px solid rgba(126, 218, 255, 0.7);
+}
+
+.routeLabel {
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  color: rgba(160, 225, 255, 0.7);
+}
+
+.routeName {
+  font-size: 0.92rem;
+  color: rgba(245, 251, 255, 0.92);
+}
+
+.exitButton {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  pointer-events: auto;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(7, 12, 27, 0.68);
+  backdrop-filter: blur(14px);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.76rem;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.exitButton:hover {
+  background: rgba(22, 31, 55, 0.82);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 640px) {
+  .routeInfo {
+    left: 20px;
+    bottom: 24px;
+  }
+
+  .exitButton {
+    top: 20px;
+    right: 20px;
+  }
+}

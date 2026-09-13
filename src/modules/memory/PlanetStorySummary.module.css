@@ -1,0 +1,4 @@
+.story { padding: 14px 18px; border-bottom: 1px solid rgba(255,255,255,.08); background: linear-gradient(90deg,rgba(244,157,144,.05),transparent); }
+.story header { display: flex; align-items: center; gap: 7px; color: rgba(255,211,188,.78); }
+.story header strong { font-size: .67rem; font-weight: 600; }
+.story p { margin-top: 8px; color: rgba(255,255,255,.47); font-size: .61rem; line-height: 1.62; }

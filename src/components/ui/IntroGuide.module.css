@@ -1,0 +1,26 @@
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+}
+
+.text {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.78);
+  text-align: center;
+  max-width: 30ch;
+}
+
+@media (max-width: 640px) {
+  .text {
+    font-size: 1.1rem;
+  }
+}

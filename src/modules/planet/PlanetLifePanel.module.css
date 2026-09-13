@@ -1,0 +1,40 @@
+.panel { position: fixed; top: 78px; right: 18px; bottom: 76px; z-index: 22; width: min(340px,calc(100vw - 36px)); display: flex; flex-direction: column; overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 16px; background: linear-gradient(155deg,rgba(25,25,62,.9),rgba(9,10,31,.94)); box-shadow: 0 24px 80px rgba(0,0,0,.38); color: #f8fbff; backdrop-filter: blur(18px); }
+.collapse { position: absolute; top: 13px; right: 12px; z-index: 2; width: 29px; height: 29px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.1); border-radius: 50%; background: rgba(255,255,255,.035); color: rgba(255,255,255,.52); cursor: pointer; }
+.openButton { position: fixed; top: 50%; right: 0; z-index: 22; min-width: 42px; height: 48px; padding: 0 8px; display: flex; align-items: center; gap: 3px; border: 1px solid rgba(111,238,214,.24); border-right: 0; border-radius: 12px 0 0 12px; background: rgba(20,22,54,.9); color: #70e8d1; cursor: pointer; backdrop-filter: blur(14px); }
+.profile { padding: 22px 22px 18px; border-bottom: 1px solid rgba(255,255,255,.08); }
+.profile > span { color: #70e8d1; font-size: .56rem; letter-spacing: .14em; }
+.profile h2 { margin-top: 7px; font-size: 1.25rem; font-weight: 560; }
+.profile p { margin-top: 7px; max-width: 270px; color: rgba(255,255,255,.48); font-size: .68rem; line-height: 1.55; }
+.tags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; }
+.tags i { padding: 4px 7px; border: 1px solid rgba(255,255,255,.09); border-radius: 999px; color: rgba(255,255,255,.56); font-size: .56rem; font-style: normal; }
+.metrics { margin-top: 14px; display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; }
+.metrics div { padding: 9px; display: grid; gap: 4px; border-radius: 8px; background: rgba(255,255,255,.035); }
+.metrics small { color: rgba(255,255,255,.34); font-size: .52rem; }
+.metrics strong { font-size: .78rem; font-weight: 620; }
+.ecologies { padding: 14px 18px; border-bottom: 1px solid rgba(255,255,255,.08); }
+.ecologies header, .timeline header > div { display: flex; align-items: center; gap: 7px; color: rgba(255,255,255,.76); }
+.ecologies header strong, .timeline header strong { font-size: .67rem; font-weight: 600; }
+.ecologies > div { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.ecologies span { padding: 5px 8px; border: 1px solid rgba(112,232,209,.15); border-radius: 7px; background: rgba(86,216,191,.06); color: rgba(142,235,218,.76); font-size: .58rem; }
+.ecologies b { margin-left: 4px; color: rgba(255,255,255,.42); font-weight: 500; }
+.timeline { min-height: 0; padding: 15px 12px 12px 18px; display: flex; flex: 1; flex-direction: column; }
+.timeline > header { padding-right: 7px; display: flex; align-items: center; justify-content: space-between; }
+.timelineActions { display: flex; align-items: center; gap: 5px; }
+.timelineActions button { min-height: 29px; padding: 0 8px; display: flex; align-items: center; gap: 5px; border: 1px solid rgba(112,232,209,.2); border-radius: 7px; background: rgba(81,220,193,.08); color: #88ead7; font-size: .58rem; cursor: pointer; }
+.timelineActions button:hover { border-color: rgba(112,232,209,.42); background: rgba(81,232,209,.14); }
+.feed { min-height: 0; margin-top: 10px; padding-right: 6px; display: grid; gap: 7px; overflow-y: auto; }
+.feed > button { position: relative; width: 100%; padding: 10px 9px 10px 15px; display: grid; grid-template-columns: 6px 1fr; gap: 9px; border: 1px solid rgba(255,255,255,.075); border-radius: 10px; background: rgba(255,255,255,.025); color: inherit; text-align: left; cursor: pointer; }
+.feed > button:hover { border-color: rgba(112,232,209,.22); background: rgba(112,232,209,.045); }
+.feed > button > i { width: 5px; height: 100%; min-height: 48px; border-radius: 99px; box-shadow: 0 0 12px currentColor; }
+.feed > button > div { min-width: 0; }
+.feed span { color: rgba(255,255,255,.32); font-size: .51rem; }
+.feed strong { margin-top: 3px; display: block; overflow: hidden; font-size: .69rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.feed p { margin-top: 4px; overflow: hidden; color: rgba(255,255,255,.44); font-size: .6rem; line-height: 1.45; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.feed small { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 7px; }
+.feed em { display: inline-flex; align-items: center; gap: 3px; color: rgba(255,255,255,.38); font-size: .52rem; font-style: normal; }
+.empty { margin: auto 10px; padding: 25px 17px; display: grid; justify-items: center; text-align: center; }
+.empty > svg { color: rgba(112,232,209,.52); }
+.empty strong { margin-top: 9px; font-size: .72rem; }
+.empty p { margin-top: 6px; color: rgba(255,255,255,.38); font-size: .6rem; line-height: 1.5; }
+.empty button { margin-top: 13px; min-height: 33px; padding: 0 11px; border: 0; border-radius: 7px; background: #78e5d0; color: #102526; font-size: .62rem; font-weight: 700; cursor: pointer; }
+@media (max-width: 700px) { .panel { top: auto; right: 10px; bottom: 68px; left: 10px; width: auto; max-height: 52vh; } .profile { padding: 17px 18px 13px; } .metrics, .ecologies { display: none; } }

@@ -1,0 +1,91 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 28;
+  background: rgba(3, 4, 12, 0.4);
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 400px;
+  max-width: 92vw;
+  z-index: 29;
+  box-sizing: border-box;
+  padding: 28px 26px 26px;
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-left: 1px solid var(--glass-border);
+  color: rgba(255, 255, 255, 0.92);
+  overflow-y: auto;
+}
+
+.panelMobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 86vh;
+  z-index: 29;
+  box-sizing: border-box;
+  padding: 20px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(9, 11, 26, 0.7);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px 20px 0 0;
+  color: rgba(255, 255, 255, 0.92);
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.relationshipContext {
+  display: block;
+  margin-top: 6px;
+  color: rgba(226, 193, 225, 0.58);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.closeButton {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: scale(1.08);
+}
+
+.body {
+  flex: 1;
+}

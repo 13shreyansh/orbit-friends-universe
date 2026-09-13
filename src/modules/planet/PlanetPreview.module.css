@@ -1,0 +1,15 @@
+.root {
+  position: absolute;
+  inset: 0;
+  min-width: 0;
+  overflow: hidden;
+  background: #030611;
+}
+
+.background { z-index: 0; }
+
+.root canvas {
+  position: relative;
+  z-index: 1;
+  display: block;
+}

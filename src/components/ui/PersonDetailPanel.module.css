@@ -1,0 +1,224 @@
+.panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 360px;
+  max-width: 88vw;
+  z-index: 20;
+  pointer-events: auto;
+  box-sizing: border-box;
+  padding: 36px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-left: 1px solid var(--glass-border);
+  color: rgba(255, 255, 255, 0.92);
+  overflow-y: auto;
+}
+
+.panelMobile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 72vh;
+  z-index: 20;
+  pointer-events: auto;
+  box-sizing: border-box;
+  padding: 22px 20px 26px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(9, 11, 26, 0.68);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px 20px 0 0;
+  color: rgba(255, 255, 255, 0.92);
+  overflow-y: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 15px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: scale(1.08);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 14px;
+}
+
+.relationDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.relationLabel {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 0 0 12px;
+}
+
+.description {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 26px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 18px;
+  margin-bottom: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.metricRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.82rem;
+}
+
+.metricLabel {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.metricValue {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.metricBarTrack {
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.metricBarFill {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 2px;
+}
+
+.actions {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.visitButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(122, 214, 255, 0.34);
+  background: rgba(79, 157, 198, 0.16);
+  color: rgba(224, 247, 255, 0.96);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.visitButton:hover {
+  background: rgba(79, 157, 198, 0.27);
+  border-color: rgba(142, 224, 255, 0.58);
+  transform: translateX(2px);
+}
+
+.visitIcon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 64% 36%, #f4fdff 0 10%, #74d9f5 22%, #245f8f 62%, #0c1b34 100%);
+  box-shadow: 0 0 9px rgba(105, 214, 255, 0.56);
+  flex: 0 0 auto;
+}
+
+.actionButton {
+  padding: 11px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.82rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.actionButton:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.95);
+  transform: translateX(2px);
+}
+
+.returnButton {
+  padding: 11px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.returnButton:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateX(2px);
+}
+
+@media (max-width: 640px) {
+  .name {
+    font-size: 1.15rem;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+}

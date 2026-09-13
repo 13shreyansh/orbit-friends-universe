@@ -1,0 +1,130 @@
+.hiddenInput {
+  display: none;
+}
+
+.dropzoneWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dropzone {
+  width: 100%;
+  padding: 28px 16px;
+  border-radius: var(--radius-md);
+  border: 1px dashed rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.dropzone:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.36);
+}
+
+.dropzoneIcon {
+  font-size: 22px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropzoneLabel {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dropzoneHint {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.errorText {
+  margin: 0;
+  font-size: 0.76rem;
+  color: #e0977a;
+}
+
+.previewWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.previewImage {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.previewVideo {
+  width: 100%;
+  max-height: 240px;
+  display: block;
+  background: #050713;
+  object-fit: contain;
+}
+
+.previewActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px 12px;
+}
+
+.fileName {
+  font-size: 0.76rem;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 140px;
+}
+
+.previewButtons {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.secondaryButton,
+.removeButton {
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.74rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.secondaryButton {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.removeButton {
+  border: 1px solid rgba(224, 151, 122, 0.3);
+  background: rgba(224, 151, 122, 0.08);
+  color: #e0977a;
+}
+
+.removeButton:hover {
+  background: rgba(224, 151, 122, 0.16);
+}

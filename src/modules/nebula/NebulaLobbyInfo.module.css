@@ -1,0 +1,22 @@
+.hud { position: fixed; top: 78px; left: 22px; z-index: 19; display: grid; gap: 5px; pointer-events: none; }
+.hud > span { color: #67d6cc; font-size: .55rem; letter-spacing: .14em; }
+.hud > strong { color: rgba(242,250,255,.86); font-size: .86rem; font-weight: 590; }
+.hud > button { width: max-content; min-height: 33px; margin-top: 5px; padding: 0 10px; display: flex; align-items: center; gap: 7px; border: 1px solid rgba(107,218,210,.18); border-radius: 6px; background: rgba(7,13,33,.7); color: rgba(215,244,243,.72); font-size: .64rem; cursor: pointer; pointer-events: auto; backdrop-filter: blur(14px); }
+
+.panel { position: fixed; z-index: 24; top: 96px; right: 22px; width: min(310px, calc(100vw - 44px)); padding: 20px; border: 1px solid rgba(137,226,222,.18); border-radius: 7px; background: rgba(7,12,31,.88); box-shadow: 0 22px 70px rgba(0,0,0,.34); backdrop-filter: blur(18px); color: rgba(239,249,255,.9); }
+.close { position: absolute; top: 11px; right: 11px; width: 29px; height: 29px; display: grid; place-items: center; border: 0; background: transparent; color: rgba(255,255,255,.48); cursor: pointer; }
+.panel > span { color: #68d8cf; font-size: .55rem; letter-spacing: .12em; }
+.panel h2 { margin: 8px 30px 8px 0; font-size: 1.08rem; font-weight: 610; }
+.panel p { margin: 0 0 16px; color: rgba(224,239,245,.52); font-size: .69rem; line-height: 1.55; }
+.panel dl { display: grid; gap: 7px; margin: 0 0 16px; }
+.panel dl div { display: flex; align-items: center; justify-content: space-between; padding-top: 7px; border-top: 1px solid rgba(255,255,255,.065); }
+.panel dt { display: flex; align-items: center; gap: 6px; color: rgba(204,232,239,.46); font-size: .61rem; }
+.panel dd { margin: 0; color: rgba(245,251,255,.76); font-size: .67rem; }
+.proceed { width: 100%; min-height: 39px; display: flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid rgba(101,215,205,.28); border-radius: 6px; background: rgba(62,167,161,.16); color: #c9f2ee; font-size: .69rem; cursor: pointer; }
+.proceed:disabled { opacity: .55; cursor: wait; }
+.panel small { display: block; margin-top: 9px; color: #ffaaaa; font-size: .6rem; }
+
+@media (max-width: 700px) {
+  .hud { top: 68px; left: 12px; }
+  .panel { top: auto; right: 10px; bottom: 68px; width: calc(100vw - 20px); }
+}

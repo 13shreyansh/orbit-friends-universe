@@ -1,0 +1,2 @@
+"""Backend-embedded agent boundaries."""
+

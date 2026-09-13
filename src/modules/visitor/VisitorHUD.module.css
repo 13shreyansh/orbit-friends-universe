@@ -1,0 +1,61 @@
+.hud {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+}
+
+.route {
+  position: absolute;
+  left: 28px;
+  bottom: 34px;
+  display: grid;
+  gap: 6px;
+  padding-left: 13px;
+  border-left: 2px solid rgba(121, 218, 255, 0.78);
+}
+
+.route span,
+.route small {
+  color: rgba(162, 222, 246, 0.62);
+  font-size: 0.61rem;
+  letter-spacing: 0.13em;
+}
+
+.route strong {
+  color: rgba(247, 252, 255, 0.94);
+  font-size: 0.9rem;
+  font-weight: 560;
+}
+
+.route i {
+  margin: 0 6px;
+  color: #89d9f8;
+  font-style: normal;
+}
+
+.route small {
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.36);
+}
+
+.hud button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  background: rgba(4, 9, 19, 0.72);
+  color: rgba(255, 255, 255, 0.78);
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .route { left: 18px; bottom: 24px; }
+  .hud button { top: 18px; right: 18px; }
+}

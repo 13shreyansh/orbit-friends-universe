@@ -1,0 +1,22 @@
+import type { GuidedProfileField } from './profileDistanceModel'
+
+export interface GuidedFieldDefinition {
+  id: GuidedProfileField
+  step: string
+  title: { zh: string; en: string }
+  question: { zh: string; en: string }
+  placeholder: { zh: string; en: string }
+  why: { zh: string; en: string }
+}
+
+export const GUIDED_PROFILE_FIELDS: GuidedFieldDefinition[] = [
+  { id: 'highSchool', step: '01', title: { zh: 'EARLY ORBIT', en: 'EARLY ORBIT' }, question: { zh: 'Which high school did you attend?', en: 'Which high school did you attend?' }, placeholder: { zh: 'School name', en: 'School name' }, why: { zh: 'It can reveal people whose old orbit has faded from view.', en: 'It can reveal people whose old orbit has faded from view.' } },
+  { id: 'university', step: '02', title: { zh: 'SHARED COORDINATE', en: 'SHARED COORDINATE' }, question: { zh: 'Where did you study at university?', en: 'Where did you study at university?' }, placeholder: { zh: 'University name', en: 'University name' }, why: { zh: 'Shared campuses, rooms, and events create dense relational evidence.', en: 'Shared campuses, rooms, and events create dense relational evidence.' } },
+  { id: 'major', step: '03', title: { zh: 'KNOWLEDGE GRAVITY', en: 'KNOWLEDGE GRAVITY' }, question: { zh: 'What is your field or long-term area of study?', en: 'What is your field or long-term area of study?' }, placeholder: { zh: 'e.g. computer science, design, philosophy', en: 'e.g. computer science, design, philosophy' }, why: { zh: 'Similar knowledge does not equal intimacy, but it can improve discovery.', en: 'Similar knowledge does not equal intimacy, but it can improve discovery.' } },
+  { id: 'city', step: '04', title: { zh: 'CURRENT POSITION', en: 'CURRENT POSITION' }, question: { zh: 'Which city do you live in now?', en: 'Which city do you live in now?' }, placeholder: { zh: 'Current city', en: 'Current city' }, why: { zh: 'Geography is one layer of social space, never the whole of it.', en: 'Geography is one layer of social space, never the whole of it.' } },
+  { id: 'hometown', step: '05', title: { zh: 'ORIGIN COORDINATE', en: 'ORIGIN COORDINATE' }, question: { zh: 'Where is your hometown?', en: 'Where is your hometown?' }, placeholder: { zh: 'Hometown', en: 'Hometown' }, why: { zh: 'Shared places of growth can explain old connections.', en: 'Shared places of growth can explain old connections.' } },
+  { id: 'interests', step: '06', title: { zh: 'INTEREST FREQUENCY', en: 'INTEREST FREQUENCY' }, question: { zh: 'What has genuinely held your attention lately?', en: 'What has genuinely held your attention lately?' }, placeholder: { zh: 'Comma separated: indie games, photography, running', en: 'Comma separated: indie games, photography, running' }, why: { zh: 'Write freely; semantic resonance matters more than choosing a category.', en: 'Write freely; semantic resonance matters more than choosing a category.' } },
+  { id: 'skills', step: '07', title: { zh: 'COLLABORATION SIGNAL', en: 'COLLABORATION SIGNAL' }, question: { zh: 'What could you bring to a team right now?', en: 'What could you bring to a team right now?' }, placeholder: { zh: 'e.g. frontend, visual design, product, model training', en: 'e.g. frontend, visual design, product, model training' }, why: { zh: 'Helps real hackathon teams discover complementary collaborators.', en: 'Helps real hackathon teams discover complementary collaborators.' } },
+  { id: 'projectDirection', step: '08', title: { zh: 'EMERGING FUTURE', en: 'EMERGING FUTURE' }, question: { zh: 'What do you most want to build this time?', en: 'What do you most want to build this time?' }, placeholder: { zh: 'One sentence about the problem or direction', en: 'One sentence about the problem or direction' }, why: { zh: 'This is not a permanent label, only your current collaboration signal.', en: 'This is not a permanent label, only your current collaboration signal.' } },
+  { id: 'bio', step: '09', title: { zh: 'YOUR VOICE', en: 'YOUR VOICE' }, question: { zh: 'Finally, describe who you are right now in one sentence.', en: 'Finally, describe who you are right now in one sentence.' }, placeholder: { zh: 'Keep it human—what should someone know first?', en: 'Keep it human—what should someone know first?' }, why: { zh: 'This becomes the first line of your planet profile and can be changed later.', en: 'This becomes the first line of your planet profile and can be changed later.' } },
+]

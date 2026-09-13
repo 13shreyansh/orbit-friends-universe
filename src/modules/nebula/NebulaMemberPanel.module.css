@@ -1,0 +1,20 @@
+.panel { position: fixed; right: 22px; bottom: 78px; z-index: 22; width: min(300px, calc(100vw - 44px)); padding: 17px; border: 1px solid rgba(158, 230, 226, .2); border-radius: 8px; background: rgba(8, 13, 34, .84); box-shadow: 0 18px 55px rgba(0,0,0,.3); backdrop-filter: blur(18px); color: rgba(240,250,255,.9); }
+.close { position: absolute; top: 10px; right: 10px; display: grid; place-items: center; border: 0; background: transparent; color: rgba(255,255,255,.48); cursor: pointer; }
+.eyebrow { display: flex; align-items: center; gap: 7px; color: rgba(161, 225, 225, .65); font-size: .55rem; letter-spacing: .13em; }
+.signal, .quietSignal { width: 7px; height: 7px; border-radius: 50%; background: #ffd08a; box-shadow: 0 0 13px #ffaf76; }
+.quietSignal { background: rgba(255,255,255,.3); box-shadow: none; }
+.panel h2 { margin: 12px 0 3px; font-size: 1.05rem; font-weight: 570; }
+.planetName { margin: 0; color: rgba(255, 208, 168, .75); font-size: .68rem; }
+.description { min-height: 32px; margin: 13px 0; color: rgba(220,236,243,.54); font-size: .69rem; line-height: 1.55; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin: 0; }
+.stats div { padding: 8px 6px; border-top: 1px solid rgba(255,255,255,.1); }
+.stats dt { color: rgba(255,255,255,.35); font-size: .53rem; }
+.stats dd { margin: 5px 0 0; color: rgba(235,250,255,.84); font-size: .78rem; }
+.source { display: flex; justify-content: space-between; gap: 10px; margin-top: 12px; color: rgba(255,255,255,.3); font-size: .55rem; }
+.source strong { color: rgba(125,220,215,.67); font-weight: 500; }
+.actions { display: grid; gap: 7px; margin-top: 14px; }
+.actions button { min-height: 34px; display: flex; align-items: center; justify-content: center; gap: 7px; border: 1px solid rgba(255,190,154,.18); border-radius: 5px; background: rgba(223,123,134,.12); color: rgba(255,225,209,.88); font-size: .65rem; cursor: pointer; }
+.actions .signalAction { border-color: rgba(103, 220, 212, .2); background: rgba(80, 194, 188, .1); color: rgba(192,245,240,.85); }
+.activityLink { width: 100%; margin-top: 9px; display: flex; align-items: center; justify-content: space-between; gap: 7px; border: 0; background: transparent; color: rgba(255,255,255,.42); font-size: .62rem; text-align: left; cursor: pointer; }
+.activityLink:hover { color: rgba(255,255,255,.8); }
+@media (max-width: 700px) { .panel { right: 10px; bottom: 62px; width: calc(100vw - 20px); } }

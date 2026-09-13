@@ -1,0 +1,8 @@
+.hud { position: fixed; top: 73px; left: 22px; z-index: 19; display: grid; gap: 7px; pointer-events: none; }
+.hud > button { min-height: 35px; max-width: 260px; display: flex; align-items: center; gap: 8px; padding: 0 12px; overflow: hidden; border: 1px solid rgba(111, 221, 214, .19); border-radius: 6px; background: rgba(7, 13, 33, .7); backdrop-filter: blur(14px); color: rgba(217,247,245,.82); font-size: .68rem; cursor: pointer; pointer-events: auto; }
+.hud > button span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.groupName { display: flex; align-items: center; gap: 6px; color: rgba(242, 250, 255, .84); font-size: .76rem; font-weight: 580; }
+.meta { display: flex; align-items: center; gap: 12px; color: rgba(205, 235, 240, .4); font-size: .55rem; }
+.meta span { display: flex; align-items: center; gap: 4px; }
+.hud small { color: rgba(255,255,255,.38); font-size: .58rem; }
+@media (max-width: 700px) { .hud { top: 64px; left: 12px; } .meta { display: none; } }
